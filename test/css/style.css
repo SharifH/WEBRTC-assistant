@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #DDD;
+}
+
+@media (max-width: 400px) {
+    
+}
+
+@media (max-width: 600px) {
+    
+/**** Hide things on mobile ****/
+.media_change{
+    display: none;
+    visibility: hidden;
+}
+    
+.movingButtons {
+	margin-top: 580px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+    
+#subTitle {
+    margin-left: 20px;
+    margin-top: 50px;
+    position: relative;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #A640BA;
+}
+    
+#subTitle:hover{
+    cursor: pointer;
+}
+    
+#mySpan {
+	margin-left:20px;
+}
+    
+br{
+    display: none;
+}
+    
+.add_padding_right {
+    padding-right:0px;
+}
+    
+.add_padding_left {
+    padding-left:0px;
+}
+
+.add_margin_right {
+    margin-right:0px;
+    padding-right:0px;
+}
+    
+.add_margin_left {
+    margin-left:0px;
+    padding-left:0px;
+}
+    
+#your_screen {
+	display: none;
+    visibility: hidden;
+}
+  
+#myCanvas {
+	position: absolute;
+    display: block;
+    background-color: transparent;
+    max-width: 600px;
+    width: 100%;
+    margin-top: 0px;
+    z-index: 10;
+    box-sizing: border-box;
+    top: 0px;
+    bottom: 0px;
+    min-height: 410px;
+}
+
+}
+
+@media (min-width: 601px) {
+    
+/**** Show things on desktop ****/
+.media_change{
+    display: block;
+    visibility: visible;
+}
+    
+.movingButtons {
+	margin-top: 65px;
+    width: 100%;
+    position: relative;
+}
+    
+#subTitle {
+	margin-left: 160px;
+    font-family: 'Montserrat', sans-serif;
+    color: #A640BA;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+    
+#subTitle:hover{
+    cursor: pointer;
+}
+    
+.add_padding_right {
+    padding-right:20px;
+}
+    
+.add_padding_left {
+    padding-left:20px;
+}
+    
+.add_margin_right {
+    margin-right:20px;
+    padding-right:20px;
+}
+    
+.add_margin_left {
+    margin-left:0px;
+    padding-left:20px;
+}
+    
+#your_screen {
+	display: block;
+    visibility: visible;
+}
+
+#myCanvas{
+    position: absolute;
+    display: block;
+    background-color: transparent;
+    
+    max-width: 600px;
+    width: 100%;
+    
+    margin-top:50px;
+    z-index: 10;
+    
+    box-sizing: border-box;
+    
+    top:0px;
+    bottom:0px;
+    
+    min-height: 547.5px;
+}
+
+
+}
+
+#mySpan {
+	color:#EB562C;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h5{
+    color: #A640BA;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top:40px;
+}
+
+/************* Their video ****************/
+
+.floating {
+	float:left;
+}
+
+#profile {
+	width: 80px;
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+    position:relative;
+    z-index: 1;
+}
+
+#sessionInput{
+    margin-top: 70px;
+    margin-left: 30px;
+    width: 350px;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    margin-right: 10px;
+    display: inline;
+    position: relative;
+    float: left;
+    z-index: 999;
+}
+
+.createRoom {
+	margin-left: 160px;
+    margin-top: 50px;
+}
+
+
+input{
+}
+
+#screenShareButton{
+    text-transform: capitalize;
+}
+
+
+#localVideo{
+    position: relative;
+    display: block;
+    
+    width: 100%;
+    
+    margin-top:10px;
+    z-index: 0;
+    
+    padding-bottom: 30px;
+}
+
+#remotes video{
+    position: relative;
+    display: block;
+    
+    max-width: 600px;
+    width: 100%;
+    
+    margin-top:30px;
+    z-index: 0;
+}
+
+button, input, select, textarea {
+  font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+   color: #A640BA;
+}

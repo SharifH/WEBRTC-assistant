@@ -246,6 +246,7 @@ Peer.prototype.end = function () {
 };
 
 Peer.prototype.handleRemoteStreamAdded = function (event) {
+  console.log('this is where the stream comes from')
     var self = this;
     if (this.stream) {
         this.logger.warn('Already have a remote stream');
@@ -274,6 +275,7 @@ Peer.prototype.handleStreamRemoved = function () {
 };
 
 Peer.prototype.handleDataChannelAdded = function (channel) {
+  console.log('handled data channel');
     this.channels[channel.label] = channel;
     this._observeDataChannel(channel);
 };
